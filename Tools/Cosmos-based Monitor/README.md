@@ -20,7 +20,7 @@ ufw allow from 127.0.0.1 to any port 7070 proto tcp && # validator prometheus ex
 
 Get validator pub address in hex format
 ```
-mineplex-chaind debug pubkey "$(mineplex-chaind --home /rpc/.crossfi-mainnet/mainnet tendermint show-validator)"
+mineplex-chaind debug pubkey "$(mineplex-chaind --home ~/mineplex tendermint show-validator)"
 ```
 > 0D69513F99994B3374C01A69F2FB511EDB6F9D58
 
